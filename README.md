@@ -4,7 +4,7 @@
 
 ### Computational Solid Mechanics | FEA & Multiphysics Simulation | FEM Development | Design Optimization
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3500&pause=800&color=58A6FF&center=true&vCenter=true&width=650&lines=Computational+Engineer+%7C+Solid+Mechanics;First-Principles+FEM+Solver+Development;Dynamic+Fracture+Modelling+%7C+FEniCSx;Multiphysics+%7C+Fatigue+%7C+Buckling+%7C+Crash;ANSYS+%7C+LS-DYNA+%7C+COMSOL+%7C+MATLAB%2FSimulink)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3500&pause=800&color=58A6FF&center=true&vCenter=true&width=650&lines=Computational+Engineer+%7C+Solid+Mechanics;First-Principles+FEM+Solver+Development;Dynamic+Fracture+Modelling+%7C+FEniCSx;Multiphysics+%7C+Fatigue+%7C+Buckling+%7C+Crash;Cardiovascular+Biomechanics+%7C+Abaqus;ANSYS+%7C+LS-DYNA+%7C+COMSOL+%7C+MATLAB%2FSimulink)](https://git.io/typing-svg)
 
 <p align="center">
   <a href="https://www.linkedin.com/in/saurabh-poojary7696"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -21,6 +21,10 @@
 - 🎓 **Master's Thesis @ Chair of Applied Mechanics (LTM), FAU Erlangen-Nürnberg:**
   - Built a **Python finite-element solver from first principles** for convex finite elements on unstructured meshes, implementing basis functions with arbitrary smoothness and completeness.
   - Verified the formulations **to machine precision** through systematic numerical testing across element types and mesh configurations.
+- 🫀 **Seminar @ Institute of Applied Mechanics (LTM), FAU — Cardiovascular Biomechanics (in progress):**
+  - Finite element analysis of **patch repair in pediatric coarctation of the aorta** in **Abaqus/Standard** (implicit, quasi-static).
+  - Idealized straight and curved (aortic arch) models with an anisotropic hyperelastic **Holzapfel-Gasser-Ogden** wall model, luminal pressure and axial prestretch; verified by mesh convergence and the analytical thick-walled cylinder solution.
+  - **Python-scripted input files** parametrize patch shape, extent, thickness, orientation and stiffness to study how patch material, location and size drive wall stress, linked to clinical recoarctation and aneurysm risk.
 - 💥 **Dynamic Fracture Modelling @ FRASCAL, FAU (Research Assistant):**
   - Developed FEM-based **dynamic fracture models in FEniCS/FEniCSx** predicting crack initiation and propagation in brittle materials under time-varying loads, validated against reference solutions with **95% accuracy**.
   - Benchmarked equivalent FEniCS and FEniCSx solvers, finding FEniCSx **2.5× faster**, which set the framework choice for ongoing work.
@@ -42,6 +46,7 @@
 
 #### CAE, FEA & Simulation
 ![ANSYS Mechanical](https://img.shields.io/badge/ANSYS%20Mechanical-FFB71B?style=flat&logo=ansys&logoColor=black)
+![Abaqus](https://img.shields.io/badge/Abaqus-005386?style=flat&logo=dassaultsystemes&logoColor=white)
 ![LS-DYNA](https://img.shields.io/badge/LS--DYNA-003366?style=flat)
 ![PyDYNA](https://img.shields.io/badge/PyDYNA-FFB71B?style=flat&logo=ansys&logoColor=black)
 ![COMSOL](https://img.shields.io/badge/COMSOL%20Multiphysics-368CCB?style=flat)
@@ -86,6 +91,7 @@
 | Project | Focus & Achievements | Tools & Methods |
 | :--- | :--- | :--- |
 | **Master's Thesis: Smooth Basis Functions for Convex Finite Elements** | First-principles FEM solver for convex elements on unstructured meshes with tunable smoothness and completeness; verified to machine precision. | Python, FEM theory, Git |
+| **Seminar: FEA of Patch Repair in Pediatric Aortic Coarctation** *(in progress)* | Parametrized patch aortoplasty on idealized aorta and arch models; parameter study of patch stiffness, location relative to arch curvature, and size on wall stress, discussed against recoarctation and aneurysm formation. | Abaqus/Standard, HGO anisotropic hyperelasticity, Python input-file scripting |
 | **Dynamic Fracture Modelling (FRASCAL)** | Crack initiation and propagation in brittle materials under dynamic loading; 95% agreement with reference solutions; FEniCSx benchmarked 2.5× faster than FEniCS. | FEniCS/FEniCSx, Gmsh, ParaView, Python |
 | **[Stiffened Panel Buckling Optimization](https://github.com/Saurabh-0706/aero-panel-buckling-optimization)** | Minimum-mass aircraft skin-stringer panel. 215-point DOE of real buckling eigenvalue solves, GP surrogate (pooled R² = 0.988), multi-seed differential evolution. | LS-DYNA, PyDYNA, Gaussian Process Regression, SciPy |
 | **[Crush-Can AI Design Optimization](https://github.com/Saurabh-0706/crush-can-ai-design-optimization)** | Thin-walled crash absorber sized for minimum mass; classical optimizer vs. LLM-driven agent compared head to head on a shared surrogate. | COMSOL Multiphysics, MPh, Python |
